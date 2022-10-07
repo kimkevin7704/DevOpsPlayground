@@ -37,7 +37,7 @@
 - [ ] ansible learning
 
 ### Week 2:
-- [ ] configure vm's with Ansible
+- [x] configure vm's with Ansible
 - [ ] deploy container to all environments
 - [ ] set up CICD via Github Actions for deployment
 - [ ] kubernetes cluster set up and deploy container
