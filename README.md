@@ -10,6 +10,7 @@ Topics to cover
 6. Logs Management - Loki
 7. Configuration Management - Ansible
 ==================================================
+
 Objectives
 1. Environment Parity
     Dev/Staging/Production should have the almost the same configurations/setup
@@ -20,7 +21,9 @@ Objectives
 4. Monitoring/Logging
     Set up dashboards for monitoring/logging stack and alerts for downtime
 ==================================================
+
 Timeline
+
 Week 1:
     - set up VMs for all environments
     - hello world web app container
