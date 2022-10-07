@@ -34,4 +34,4 @@ Week 2:
     - kubernetes cluster set up and deploy container
 
 Week 3:
-    - 
+    - asdf
