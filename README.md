@@ -6,9 +6,9 @@
 
 | Topic | Tool |
 | --- | --- |
-| Infrastructure as Code | Terraform & Terragrunt|
-| Container Orchestration | Kubernetes & Docker|
-| Programming Lang | Python |
+| Infrastructure as Code | Terraform & Terragrunt |
+| Container Orchestration | Kubernetes & Docker |
+| Programming Lang | Python | 
 | CI/CD | GitHub Actions |
 | Infra Monitoring | Grafana & Prometheus |
 | Logs Management | Loki |
@@ -35,9 +35,12 @@
 - [ ] hello world web app container
 - [ ] set up github actions for repo
 - [ ] ansible learning
+- [ ] set up system users (service accounts) have accounts so ansible can access using ssh
+- [ ] user management with ansible
+- [ ] virtual env set up via ansible
 
 ### Week 2:
-- [x] configure vm's with Ansible
+- [ ] configure vm's with Ansible
 - [ ] deploy container to all environments
 - [ ] set up CICD via Github Actions for deployment
 - [ ] kubernetes cluster set up and deploy container
