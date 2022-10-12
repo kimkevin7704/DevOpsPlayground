@@ -1,0 +1,26 @@
+# Author: Kevin Kim
+# Date Created: 10/12/2022
+# Last Modified: 10/12/2022
+
+name: GitHub Actions Test
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      - name: Run a multi-line script
+        run: |
+          echo test multi-line script
+          echo test, test, test, test
