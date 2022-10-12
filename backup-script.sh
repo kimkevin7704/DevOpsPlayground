@@ -10,4 +10,4 @@
 # Usage
 # backup-script.sh
 
-tar -cvf /DevOpsPlayground/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+tar -cvf ./my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ./* 2>/dev/null
