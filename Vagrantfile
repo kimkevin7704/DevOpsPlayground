@@ -38,6 +38,12 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", run: "always", inline: <<-SHELL
     echo "Hello from the dev VM"
     nginx -v
+    echo "enabling firewall"
+    echo y | sudo ufw enable
+    sudo ufw allow 'Nginx Full'
+    sudo ufw allow 'Nginx HTTP'
+    sudo ufw allow 'Nginx HTTPS'
+    sudo cp -r /home/vagrant/app/. /var/www/
   SHELL
   end
   
@@ -67,6 +73,12 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", run: "always", inline: <<-SHELL
     echo "Hello from the staging VM"
     nginx -v
+    echo "enabling firewall"
+    echo y | sudo ufw enable
+    sudo ufw allow 'Nginx Full'
+    sudo ufw allow 'Nginx HTTP'
+    sudo ufw allow 'Nginx HTTPS'
+    sudo cp -r /home/vagrant/app/. /var/www/
   SHELL
   end
 
@@ -96,6 +108,12 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", run: "always", inline: <<-SHELL
     echo "Hello from the production VM"
     nginx -v
+    echo "enabling firewall"
+    echo y | sudo ufw enable
+    sudo ufw allow 'Nginx Full'
+    sudo ufw allow 'Nginx HTTP'
+    sudo ufw allow 'Nginx HTTPS'
+    sudo cp -r /home/vagrant/app/ /var/www/
   SHELL
   end
 
