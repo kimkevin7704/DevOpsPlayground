@@ -1,5 +1,7 @@
 # DevOps Playground
+
 By: Kevin Kim
+
 README last updated: 10/13/2022
 
 ---
@@ -9,6 +11,8 @@ We will be deploying using 3 different environments (dev, staging, production) t
 
 #### Each VM is spun up using Vagrant with the following spec:
 
+| Spec | |
+| --- | --- |
 | VM Box | bento/ubuntu-22.04 |
 | VM mem | 2048 |
 | private network | 192.168.33.0/24 |
