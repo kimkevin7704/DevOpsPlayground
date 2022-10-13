@@ -2,6 +2,20 @@
 
 ---
 
+## VM spec
+We will be deploying using 3 different environments (dev, staging, production) to simulate an actual production pipeline. VM's will be spun up using Vagrant
+
+#### Each VM is spun up using Vagrant with the following spec:
+
+| VM Box | bento/ubuntu-22.04 |
+| VM mem | 2048 |
+| private network | 192.168.33.0/24 |
+| host port | 8080-8090 |
+| installs | nginx |
+
+
+---
+
 ## Topics to cover
 
 | Topic | Tool |
@@ -31,15 +45,16 @@
 ## Timeline
 
 ### Week 1:
-- [ ] set up VMs for all environments
+- [x] set up VMs for all environments via Vagrant
 - [ ] hello world web app container
-- [ ] set up github actions for repo
-- [ ] ansible learning
+- [x] set up github actions for repo
+- [x] ansible learning
+
+
+### Week 2:
 - [ ] set up system users (service accounts) have accounts so ansible can access using ssh
 - [ ] user management with ansible
 - [ ] virtual env set up via ansible
-
-### Week 2:
 - [ ] configure vm's with Ansible
 - [ ] deploy container to all environments
 - [ ] set up CICD via Github Actions for deployment
