@@ -1,4 +1,6 @@
 # DevOps Playground
+By: Kevin Kim
+README last updated: 10/13/2022
 
 ---
 
