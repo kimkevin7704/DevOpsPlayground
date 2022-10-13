@@ -130,3 +130,6 @@ dmypy.json
 
 # local backups
 my_backup_*
+
+# vagrant misc
+.vagrant/
