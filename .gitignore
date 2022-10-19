@@ -133,3 +133,4 @@ my_backup_*
 
 # vagrant misc
 .vagrant/
+notes
