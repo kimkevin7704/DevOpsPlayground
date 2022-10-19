@@ -66,3 +66,9 @@ We will be deploying using 3 different environments (dev, staging, production) t
 - [ ] asdf
 
 ---
+
+## Env setup
+1. make virtual env
+    - python -m venv env
+    - source env/bin/activate (env/Scripts/activate for Windows)
+2. install flask
